@@ -34,3 +34,31 @@ A Java implementation of the classic Flappy Bird game, using the **Swing** libra
 ![image](https://github.com/user-attachments/assets/b541d2d1-b4f7-48cc-845c-c7b400cd4a60)
 
 
+
+## Project Structure
+**Main Class:** FlappyBird initializes the game window and main game loop.
+**Core Classes:**
+**Game:** Manages the game state, rendering, and logic updates.
+**Bird:** Represents the player-controlled bird with movement and collision logic.
+**Tube and TubeColumn:** Represent obstacles with dynamic positioning and speed.
+**Window:** Creates the game window and manages its properties.
+**Support Classes:**
+**ProxyImage and RealImage:** Use the proxy design pattern to load and manage image assets.
+**Controller:** Handles user input to control the bird.
+
+
+## Key Concepts Demonstrated
+Object-Oriented Design: Modular code with encapsulated game logic.
+Event Handling: Captures keyboard inputs for gameplay interaction.
+Proxy Design Pattern: Efficient image loading and resource management.
+Graphics Rendering: Custom rendering of sprites and UI components using Graphics2D.
+
+## Customization
+Modify Window.WIDTH and Window.HEIGHT in the Window class to change the screen size.
+Adjust game difficulty by changing the speed and changeSpeed variables in the TubeColumn class.
+License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+Inspired by the original Flappy Bird game developed by Dong Nguyen.
+Utilizes the Swing framework for GUI and event-driven programming.
